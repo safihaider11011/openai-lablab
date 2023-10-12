@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #b3b3b3;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 100%;
+  max-width: 1000px;
+  height: calc(100vh - 40px);
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.app h1 {
+  text-align: center;
+}
+
+.inputMessage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.inputMessage .inner {
+  padding: 20px;
+}
+
+.inputMessage input {
+  height: 40px;
+  width: 99.2%;
+  font-size: 16px;
+}
+
+.chat {
+  max-height: calc(100vh - 200px);
+  overflow-x: auto;
+}
+
+.msgContainer {
+  display: flex;
+  margin: 10px 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.patientMsg {
+  align-items: flex-end;
+}
+
+.msg {
+  font-size: 14px;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.doctorMsg .msg {
+  background-color: #4242ff;
+}
+
+.patientMsg .msg {
+  background-color: #008e9d;
+}
+
+.amiBtn {
+  margin-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+}
+
+.amiBtn:hover {
+  background: #333;
+  color: #fff;
+}
+
+.amiImage {
+  width: 400px;
+  border-radius: 10px;
+}
